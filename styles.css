@@ -179,6 +179,36 @@ body {
   border: 1px solid #1f2937;
   box-shadow: 0 18px 45px rgba(0, 0, 0, 0.55);
 }
+.hero-avatar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.9rem;
+}
+
+.hero-avatar-circle {
+  width: 52px;
+  height: 52px;
+  border-radius: 999px;
+  background: radial-gradient(circle at 30% 20%, #22c55e 0, #0f172a 55%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #ecfeff;
+  font-size: 1rem;
+  border: 2px solid rgba(15, 23, 42, 0.9);
+  box-shadow: 0 0 18px rgba(34, 197, 94, 0.5);
+}
+
+.hero-avatar-name {
+  font-weight: 600;
+}
+
+.hero-avatar-role {
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
 
 .hero-card-title {
   font-weight: 600;
