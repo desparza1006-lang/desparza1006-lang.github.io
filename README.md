@@ -1,1 +1,0 @@
-# david-esparza.github.io
